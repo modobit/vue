@@ -1,5 +1,5 @@
-# vue
-vue.js Playground
+# vue.js
+vue.js Playground - https://github.com/vuejs/vue
 
 
 ## UI/Layout
@@ -13,6 +13,7 @@ vue.js Playground
 
 ## Examples Sites
 - [Sites build with Vue](https://madewithvuejs.com/websites)
+- [Awesome Vue.js](https://awesome-vue.js.org/)
 - https://bestofvuejs.com/
 - https://awesome-vue.js.org/projects-using-vue-js/apps-websites.html
 
