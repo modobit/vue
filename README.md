@@ -12,6 +12,7 @@ vue.js Playground - https://github.com/vuejs/vue
 - [Keen UI inspired by Google's Material Design](https://github.com/JosephusPaye/Keen-UI/tree/master#keen-ui)
 
 ## Examples Sites
+- [App Examples with code](https://vuejsexamples.com/)
 - [Sites build with Vue](https://madewithvuejs.com/websites)
 - [Awesome Vue.js](https://awesome-vue.js.org/)
 - https://bestofvuejs.com/
