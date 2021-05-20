@@ -8,6 +8,7 @@ vue.js Playground - https://github.com/vuejs/vue
 - [Quaser](https://quasar.dev/)
 - [Buefy](https://buefy.org/)
 - [VueTify](https://vuetifyjs.com/en/)
+- https://vuikit.js.org/
 - [Made With Vuew - examples](https://madewithvuejs.com/frameworks)
 - [Keen UI inspired by Google's Material Design](https://github.com/JosephusPaye/Keen-UI/tree/master#keen-ui)
 
