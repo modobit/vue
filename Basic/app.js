@@ -10,12 +10,14 @@ const app = Vue.createApp({
             age: 45,
             x: 0,
             y: 0,
+            urlA: 'http://google.com',
+            urlB: 'http://yahoo.com',
 
             books:
             [
-                {title: 'Name of the wind', author: 'Jim'},
-                {title: 'Starwars, retuen of the jedi', author: 'Bob'},
-                {title: 'Shadows of the Beast', author: 'Smith'}
+                {title: 'Name of the wind', author: 'Jim', img: 'assets/1.jpg'},
+                {title: 'Starwars, retuen of the jedi', author: 'Bob', img: 'assets/2.jpg'},
+                {title: 'Shadows of the Beast', author: 'Smith', img: 'assets/3.jpg'}
             ]
         }
     },

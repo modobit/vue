@@ -21,12 +21,30 @@
     <h1>Hello Vue</h1>
     <div id="app">
 
+        <!-- Attribute binding-->
+
+        <a v-bind:href="urlA" >Best Website</a> 
+        | <a :href="urlB" >Best Yahoo Website</a>
+
+
+
+
+
+
+
+
 <div v-if="showBooks">
     {{ books[0].title }} <br>
     {{ books[1].title }}
 
     <ul>
-        <li v-for="book in books">{{ book.title }}, Author: {{ book.author }}</li>
+        <li v-for="book in books">
+            {{ book.title }}, 
+            Author: {{ book.author }} | &nbsp;&nbsp;&emsp;&nbsp;
+            <img :src="book.img" :alt="book.title" style="width:200px;">
+            
+            
+        </li>
     </ul>
 </div>
 

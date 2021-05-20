@@ -8,3 +8,21 @@
     margin: 20px;
     display: inline-block;
 }
+
+
+li
+{
+    list-style-type: none;
+    width: 600px;
+    background-color: #efefef;
+    margin: 20px auto;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img{
+    border-radius: 10px;
+}
