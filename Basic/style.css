@@ -1,0 +1,10 @@
+
+.box
+{
+    padding:  100px 0;
+    width: 300px;
+    text-align: center;
+    background-color:rgb(186, 186, 186);
+    margin: 20px;
+    display: inline-block;
+}
