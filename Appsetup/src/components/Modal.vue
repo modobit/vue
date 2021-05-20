@@ -39,9 +39,9 @@ export default {
 
             books:
             [
-                {title: 'Name of the wind', author: 'Jim', img: 'assets/1.jpg'},
-                {title: 'Starwars, return of the jedi', author: 'Bob', img: 'assets/2.jpg'},
-                {title: 'Shadows of the Beast', author: 'Smith', img: 'assets/3.jpg'}
+                {title: 'Name of the wind', author: 'Jim', img: '/assets/1.jpg'},
+                {title: 'Starwars, return of the jedi', author: 'Bob', img: '/assets/2.jpg'},
+                {title: 'Shadows of the Beast', author: 'Smith', img: '/assets/3.jpg'}
             ]
         }
     }
