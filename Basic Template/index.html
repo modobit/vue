@@ -21,16 +21,29 @@
 
 <div id="myapp">
 
-
+ 
     <div class="container">
         <div class="row">
             <h1>{{ heading }}</h1>
         </div>
-
-
-
         <h3>Current Date & Time: {{currentDateTime()}}</h3>
         <p>{{ dummytext }}</p>
+
+        <a v-bind:href="link_google">Click here for more information</a> | 
+        <a v-bind:href="link_yahoo">Visit Yahoo</a>
+    <br><br>
+        <p> Random number: <strong>{{ randomNumber() }}</strong></p>
+
+        <input type="text" v-on:input="setName">
+        
+        <p>Your Name: {{ name }} </p>
+
+        <button class="btn-primary btn-space" v-on:click="addCounter()">Add</button>
+        <button class="btn-danger btn-space" v-on:click="counter--">Remove</button>
+
+        <p>Result: <strong>{{ counter }}</strong> </p>
+
+
 
       </div>
 
