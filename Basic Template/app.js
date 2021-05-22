@@ -2,8 +2,11 @@
 
      data() {
          return {
-             heading: 'Welcome to vue tutorial',
 
+            boxASelected: false,
+            boxBSelected: false,
+            boxCSelected: false,
+            heading: 'Welcome to vue tutorial',
              link_google: 'https://google.com/',
              link_yahoo: 'https://yahoo.com',
              counter: 0,
@@ -13,6 +16,21 @@
      },
 
      methods: {
+
+
+        boxSelected(box) {
+            if (box === 'A') {
+              this.boxASelected = !this.boxASelected;
+              console.log("Selected A")
+            } else if (box === 'B') {
+              this.boxBSelected = !this.boxBSelected;
+              console.log("Selected B")
+            } else if (box === 'C') {
+              this.boxCSelected = !this.boxCSelected;
+              console.log("Selected C")
+            }
+          },
+        
 
          setName(event) {
              this.name = event.target.value;

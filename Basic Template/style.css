@@ -6,3 +6,19 @@
 .btn-space {
     margin-right: 5px;
 }
+
+
+.active
+{
+    border-color: rgb(28, 28, 28);
+    background-color: yellow;
+}
+
+
+.demo {
+    background-color: rgb(160, 160, 160);
+    width: calc(100% - 32px);
+    height: 100px;
+    margin: 16px;
+    border: 10px solid #555;
+  }
