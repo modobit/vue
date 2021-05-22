@@ -7,11 +7,12 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+ 
 
-        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+     
         <script src="https://unpkg.com/vue@next"></script>
-
+        <link rel="stylesheet" href="style.css" />
+        <script src="app.js" defer></script>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     </head>
@@ -45,6 +46,23 @@
 
 
 
+            <div
+              class="demo"
+              :class="{active: boxASelected}"
+              @click="boxSelected('A')"
+            >a</div>
+            <div
+              class="demo"
+              :class="{active: boxBSelected}"
+              @click="boxSelected('B')"
+            >a</div>
+            <div
+              class="demo"
+              :class="{active: boxCSelected}"
+              @click="boxSelected('C')"
+            >a</div>
+
+
       </div>
 
     
@@ -56,6 +74,6 @@
 
 
         
-        <script src="./app.js" async defer></script>
+        
     </body>
 </html>

@@ -2,6 +2,11 @@
 
      data() {
          return {
+
+            boxASelected: false,
+            boxBSelected: false,
+            boxCSelected: false,
+
              heading: 'Welcome to vue tutorial',
 
              link_google: 'https://google.com/',
@@ -14,6 +19,21 @@
 
      methods: {
 
+        boxSelected(box) {
+            if (box === 'A') {
+              this.boxASelected = !this.boxASelected;
+              console.log("Cliked")
+            } else if (box === 'B') {
+              this.boxBSelected = !this.boxBSelected;
+              console.log("Cliked")
+
+            } else if (box === 'C') {
+              this.boxCSelected = !this.boxCSelected;
+              console.log("Cliked")
+
+            }
+          },
+        
          setName(event) {
              this.name = event.target.value;
          },
@@ -36,8 +56,8 @@
              return this.random
          }
      }
-
-
- });
+    
+    
+    });
 
  app.mount('#myapp');

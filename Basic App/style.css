@@ -6,3 +6,16 @@
 .btn-space {
     margin-right: 5px;
 }
+
+
+  .demo {
+    width: calc(100% - 32px);
+    height: 100px;
+    margin: 16px;
+    background-color: rgb(103, 103, 103);
+  }
+  
+  .active {
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(227, 227, 227);
+  }
