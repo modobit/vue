@@ -3,11 +3,14 @@
      data() {
          return {
 
-            boxASelected: false,
-            boxBSelected: false,
-            boxCSelected: false,
-
+             boxASelected: false,
+             boxBSelected: false,
+             boxCSelected: false,
+             textSelect: 'Box Select',
+             enteredGoalValue: '',
+             goals: [],
              heading: 'Welcome to vue tutorial',
+             goaladded: 'Adding Goals',
 
              link_google: 'https://google.com/',
              link_yahoo: 'https://yahoo.com',
@@ -19,21 +22,35 @@
 
      methods: {
 
-        boxSelected(box) {
-            if (box === 'A') {
-              this.boxASelected = !this.boxASelected;
-              console.log("Cliked")
-            } else if (box === 'B') {
-              this.boxBSelected = !this.boxBSelected;
-              console.log("Cliked")
+         addGoal() {
+             this.goals.push(this.enteredGoalValue);
+             
 
-            } else if (box === 'C') {
-              this.boxCSelected = !this.boxCSelected;
-              console.log("Cliked")
+         },
 
-            }
-          },
-        
+         removeGoal(idx)
+         {
+             this.goals.splice(idx, 1);
+         },
+
+         boxSelected(box) {
+             if (box === 'A') {
+                 this.boxASelected = !this.boxASelected;
+                 this.textSelect = 'Selected'
+                 console.log("Cliked")
+             } else if (box === 'B') {
+                 this.boxBSelected = !this.boxBSelected;
+                 this.textSelect = 'Selected'
+                 console.log("Cliked")
+
+             } else if (box === 'C') {
+                 this.boxCSelected = !this.boxCSelected;
+                 this.textSelect = 'Selected'
+                 console.log("Cliked")
+
+             }
+         },
+
          setName(event) {
              this.name = event.target.value;
          },
@@ -56,8 +73,8 @@
              return this.random
          }
      }
-    
-    
-    });
+
+
+ });
 
  app.mount('#myapp');
