@@ -1,6 +1,8 @@
 # vue.js
 vue.js Playground - https://github.com/vuejs/vue
 
+## Github Links
+- https://github.com/vuejs/awesome-vue
 
 ## UI/Layout/Frameworkds
 - [Wave ui](https://antoniandre.github.io/wave-ui/)
@@ -20,5 +22,5 @@ vue.js Playground - https://github.com/vuejs/vue
 - https://bestofvuejs.com/
 - https://awesome-vue.js.org/projects-using-vue-js/apps-websites.html
 
-## Github Links
-- https://github.com/vuejs/awesome-vue#tutorials
+
+
