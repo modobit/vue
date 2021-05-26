@@ -15,7 +15,7 @@ vue.js Playground - https://github.com/vuejs/vue
 
 ## UI/Layout/Frameworkds
 - [Wave ui](https://antoniandre.github.io/wave-ui/)
-- [Element Eleme](https://element.eleme.io/#/en-US)
+- [Element](https://element.eleme.io/#/en-US)
 - [Vant](https://youzan.github.io/vant/#/en-US/)
 - [Quaser](https://quasar.dev/)
 - [Buefy](https://buefy.org/)
