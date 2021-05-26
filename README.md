@@ -9,6 +9,10 @@ vue.js Playground - https://github.com/vuejs/vue
 - https://github.com/dsbert/awesome-vue
 - https://github.com/ButterCMS/buttercms-vue-tutorial
 
+## Community 
+- https://dev.to/t/vue
+- https://vue-community.org/
+
 ## UI/Layout/Frameworkds
 - [Wave ui](https://antoniandre.github.io/wave-ui/)
 - [Element Eleme](https://element.eleme.io/#/en-US)
