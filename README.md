@@ -1,8 +1,13 @@
 # vue.js
+### A curated list of awesome things related to Vue.js
+
 vue.js Playground - https://github.com/vuejs/vue
 
 ## Github Links
 - https://github.com/vuejs/awesome-vue
+- https://github.com/filrak/vuejs-advanced-learning
+- https://github.com/dsbert/awesome-vue
+- https://github.com/ButterCMS/buttercms-vue-tutorial
 
 ## UI/Layout/Frameworkds
 - [Wave ui](https://antoniandre.github.io/wave-ui/)
@@ -21,6 +26,3 @@ vue.js Playground - https://github.com/vuejs/vue
 - [Awesome Vue.js](https://awesome-vue.js.org/)
 - https://bestofvuejs.com/
 - https://awesome-vue.js.org/projects-using-vue-js/apps-websites.html
-
-
-
