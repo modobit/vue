@@ -30,3 +30,6 @@ vue.js Playground - https://github.com/vuejs/vue
 - [Awesome Vue.js](https://awesome-vue.js.org/)
 - https://bestofvuejs.com/
 - https://awesome-vue.js.org/projects-using-vue-js/apps-websites.html
+
+## Youtube
+- [Vuetify - how to setup ?](https://www.youtube.com/watch?v=2uZYKcKHgU0&list=PL4cUxeGkcC9g0MQZfHwKcuB0Yswgb3gA5&ab_channel=TheNetNinja)
